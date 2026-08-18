@@ -2,6 +2,7 @@ import './App.css'
 import Header from './Header'
 import ProfilePanel from './ProfilePanel'
 import { StudentProvider } from './StudentContext'
+import TaskManager from './TaskManager';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
 
     <Header />
     <ProfilePanel />
+    <TaskManager />
 
     </StudentProvider>
 
